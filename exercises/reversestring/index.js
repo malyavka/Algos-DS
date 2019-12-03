@@ -4,7 +4,14 @@
 // --- Examples
 //   reverse('apple') === 'leppa'
 //   reverse('hello') === 'olleh'
-//   reverse('Greetings!') === '!sgniteerG'
+//   reverse('Greetings!') === '!sgniteerG
+
+/** SOLUTION with REDUCE method**/
+function reverse (str) {
+    return str
+        .split('')
+        .reduce((rev, char) => char + rev, '');
+}
 /** Solution with FOR LOOP
 function reverse(str) {
     let returnedStr = '';
@@ -13,12 +20,14 @@ function reverse(str) {
     }
     return returnedStr;
 }
-**/
+
+ **Solution with built-in
+ *
 function reverse(str) {
     return str
         .split('')
         .reverse()
         .join('');
 }
-
+**/
 module.exports = reverse;
