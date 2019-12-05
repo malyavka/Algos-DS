@@ -17,8 +17,7 @@ function reverseInt(n) {
     if (str[str.length-1]  === '-') {
         str.unshift(str.pop())
     }
-    str = str.join('')
-    return parseInt(str);
+    return parseInt(str.join(''));
 
 }
 
