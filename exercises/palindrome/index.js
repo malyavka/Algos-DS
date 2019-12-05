@@ -6,7 +6,7 @@
 // --- Examples:
 //   palindrome("abba") === true
 //   palindrome("abcdefg") === false
-
+/** Recursive
 function palindrome(str) {
     if (str.length === 1 || str.length === 0) return true;
     else if (str[0] === str[str.length-1]) {
@@ -16,5 +16,15 @@ function palindrome(str) {
     }
     return false;
 }
+**/
 
+
+function palindrome(str) {
+    for (let i = 0; i < str.length/2; i++){
+        if (str[i] !== str[str.length-1-i]){
+            return false;
+        }
+    }
+    return true;
+}
 module.exports = palindrome;
