@@ -18,3 +18,6 @@ function binarySearch(arr, val, start = 0, end = arr.length-1){
     // search in the right half of mid
         return binarySearch(arr, val, mid+1, end);
 }
+
+
+module.exports = binarySearch;
