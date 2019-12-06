@@ -34,11 +34,6 @@ function anagrams1(stringA, stringB) {
         }
         else
         {
-            counter[stringA[i]] = 1;
-        }
-    }
-    for (let key in counter) {
-        if (counter[key] !== 0) {
             return false;
         }
     }
