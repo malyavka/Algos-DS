@@ -14,6 +14,11 @@
 //       ' ### '
 //       '#####'
 
-function pyramid(n) {}
+function pyramid(n) {
+    for (let i = 0; i < n; i++){
 
+    }
+
+}
+pyramid(4);
 module.exports = pyramid;

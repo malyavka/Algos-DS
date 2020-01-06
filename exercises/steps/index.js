@@ -16,7 +16,16 @@
 //       '##  '
 //       '### '
 //       '####'
-
+/**
+ *   r0c0   || r0c1   || r0c2  ||
+ *   #          _           _
+ *   r1c0   || r1c1   || r1c2  ||
+ *   #          #           _
+ *   r2c0   || r2c1   || r2c2  ||
+ *   #          #           #
+ *
+ * @param n
+ */
 function steps(n) {
     for (let row = 0; row < n; row++){
         let str = '';
