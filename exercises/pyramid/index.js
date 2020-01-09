@@ -24,7 +24,11 @@
  * @param n
  */
 function pyramid(n) {
-    for (let i = 0; i < n; i++){
+    for (let row = 0; row < n; row++){
+        let str = '';
+        for (let col = 0; col < (n*2-1); col++){
+
+        }
 
     }
 
