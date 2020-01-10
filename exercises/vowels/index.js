@@ -24,5 +24,4 @@ function vowels(str) {
     }
     return counter;
 }
-
 module.exports = vowels;
