@@ -17,6 +17,7 @@ function vowels(str) {
         i: 'i',
         u: 'u'
     };
+
     for (let i = 0; i < str.length; i++){
         if (str[i] in map){
             counter++;
